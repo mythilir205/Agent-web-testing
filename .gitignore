@@ -4,9 +4,14 @@ node_modules/
 # Cypress artifacts
 cypress/videos/
 cypress/screenshots/
+cypress/downloads/
+
+# Test reports and coverage
+coverage/
+.nyc_output/
+mochawesome-report/
 
 # Build output
-coverage/
 dist/
 build/
 
