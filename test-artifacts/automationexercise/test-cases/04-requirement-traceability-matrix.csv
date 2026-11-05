@@ -1,0 +1,25 @@
+Requirement ID,Requirement Summary,Test Case IDs,Coverage Status
+REQ-01,Home page loads over HTTPS with expected title/content,"AE-001; AE-046; AE-050; AE-052",Proposed
+REQ-02,Primary navigation reaches public pages,"AE-001; AE-002; AE-046; AE-050; AE-051; AE-055; AE-064",Proposed
+REQ-03,Signup validates inputs and creates account safely,"AE-003; AE-007; AE-030; AE-031; AE-049; AE-056; AE-059",Proposed
+REQ-04,Login accepts valid and rejects invalid credentials,"AE-004; AE-005; AE-029; AE-049; AE-057; AE-058",Proposed
+REQ-05,Logout clears authenticated state,"AE-006; AE-049",Proposed
+REQ-06,Catalog and product details expose product information,"AE-010; AE-032; AE-047; AE-062; AE-064; AE-065",Proposed
+REQ-07,Product search returns relevant and handles no-match queries,"AE-011; AE-022; AE-033; AE-034; AE-060; AE-063",Proposed
+REQ-08,Category and brand browse filters correspond to selection,"AE-020; AE-021; AE-047; AE-061",Proposed
+REQ-09,Product reviews accept valid data and handle invalid data,"AE-023; AE-041; AE-073",Proposed
+REQ-10,"Cart reflects products, quantities, totals, removal and state","AE-014; AE-015; AE-019; AE-022; AE-024; AE-032; AE-035; AE-036; AE-037; AE-048; AE-066; AE-067; AE-068; AE-069; AE-070",Proposed
+REQ-11,Checkout displays order/address state and safely gates transactions,"AE-016; AE-017; AE-018; AE-025; AE-038; AE-039; AE-040; AE-048; AE-069; AE-070",Proposed
+REQ-12,Approved order completion provides confirmation and invoice,"AE-016; AE-017; AE-018; AE-026",Proposed
+REQ-13,Contact form validates and reports valid submission,"AE-008; AE-042; AE-071; AE-072",Proposed
+REQ-14,Home/cart subscriptions validate email and report result,"AE-012; AE-013; AE-043; AE-044",Proposed
+REQ-15,Recommendations and scroll controls behave as presented,"AE-024; AE-027; AE-028",Proposed
+REQ-16,Test Cases/API List pages are reachable and display content,"AE-009; AE-045; AE-050; AE-074",Proposed
+NFR-01,Tests are deterministic and configured via Cypress,"All approved cases",Proposed
+NFR-02,Tests use maintainable selectors and retryable assertions,"All approved cases",Proposed
+NFR-03,No sensitive data is exposed in test artifacts,"All cases using account/contact/payment data",Proposed
+NFR-04,Execution is bounded and irreversible actions gated,"AE-003; AE-007; AE-008; AE-012; AE-013; AE-016; AE-017; AE-018; AE-023; AE-026; AE-030; AE-031; AE-040; AE-044; AE-058; AE-069; AE-070",Proposed
+NFR-05,Every case is identified and linked to requirement IDs,"AE-001 through AE-074",Proposed
+NFR-06,Results distinguish app/environment/automation failures,"All executed cases (after approval)",Proposed
+NFR-07,Home page remains usable at approved desktop/mobile viewports,"AE-053",Proposed
+NFR-08,Primary navigation is keyboard reachable with visible focus,"AE-054",Proposed

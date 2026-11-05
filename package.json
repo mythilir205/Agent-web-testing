@@ -1,0 +1,14 @@
+{
+  "name": "agent-web-testing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cypress starter for agentic end-to-end web QA",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "reports:generate": "node scripts/generate-qa-reports.js && python3 scripts/generate-word-evidence-report.py"
+  },
+  "devDependencies": {
+    "cypress": "^14.5.0"
+  }
+}
